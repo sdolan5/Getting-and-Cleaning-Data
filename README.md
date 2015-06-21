@@ -29,4 +29,4 @@ You can find additional information about the variables, the data and the transf
 The *"run_analysis.R"* file contains all the code used to complete the project.  
 NOTE:  The code takes for granted that all of the data from the original dataset has been downloaded and extracted, but remains in one directory bearing the original folder name "UCI HAR Dataset" and file names unaltered.
 
-The final dataset, which is the output of the 5th step, is called *"tidy_data.txt"* and is uploaded to this repo.
+The final dataset, which is the output of the 5th step above, is called *"tidy_data.txt"* and is uploaded to this repo.
