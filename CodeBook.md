@@ -1,6 +1,6 @@
 ###Introduction
 
-The script run_analysis.R performs the 5 steps described in the course project's definition, plus one initial preparatory step.
+The script *"run_analysis.R*" performs the 5 steps described in the course project's definition, plus one initial preparatory step.
 
 ###No.0- Preparation
 ####Set the R working directory to where the UCI HAR Dataset was unzipped.
