@@ -22,7 +22,7 @@ The script *"run_analysis.R*" performs the 5 steps described in the course proje
 
 ###No.2- Extract only the measurements on the mean and standard deviation 
 ####Isolate the ID, mean() & stddev() columns using a logical vector and pattern matching
-  * Specifically, this involves using the `grepl()` and a vector of column names *__and__*
+  * Specifically, this involves using `grepl()` and a vector of column names *__and__*
   * Subsetting the result to keep only the necessary columns.
   * Also, remember to update the column names
     
