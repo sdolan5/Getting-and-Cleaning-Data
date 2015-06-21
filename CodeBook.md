@@ -39,7 +39,7 @@ The script run_analysis.R performs the 5 steps described in the course project's
 * "BodyBody" becomes "Body"
   
 ###No.5- Create a second, independent tidy data set with the average of each variable for each activity and each subject.
-1. Remove ActivityType column so that averages can be taken
+1. Remove the ActivityType column so that averages can be taken
 2. Summarize the new table to include just the mean of each variable using `aggregate()`
 3. `merge()` the new table with activityType to reintroduce the descriptive activity names
 4. Export the tidy dataset *"tidy_data.txt"* using `write.table()` with row names set to __FALSE__
