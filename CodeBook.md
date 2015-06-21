@@ -32,7 +32,7 @@ The script run_analysis.R performs the 5 steps described in the course project's
 ###No.4- Appropriately label the data set with descriptive variable names 
 ####Use `gsub()` and pattern replacement on the `names()` of the dataset
 * "^t" becomes "time"
-* "^f"becomes "frequency"
+* "^f" becomes "frequency"
 * "Acc" becomes "Accelerometer"
 * "Gyro" becomes "Gyroscope"
 * "Mag" becomes "Magnitude"
