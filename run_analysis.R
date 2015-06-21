@@ -1,6 +1,6 @@
 ##No.0- Preparation
 #Set working directory to where UCI HAR Dataset was unzipped
-setwd("C:/Users/Sean/Desktop/Coursera/UCI HAR Dataset/")
+setwd("~/UCI HAR Dataset/")
 
 ##No.1- Merge the training and the test sets to create one data set
 #Read in the Train data- plus Features and Activity
@@ -51,7 +51,6 @@ colNames <- colnames(mergedData)
 mergedData <- merge(mergedData,activityType,by='activityId',all.x=TRUE)
 
 ##No.4- Appropriately label the dataset with descriptive variable names. 
-
 names(mergedData)<-gsub("^t", "time", names(mergedData))
 names(mergedData)<-gsub("^f", "frequency", names(mergedData))
 names(mergedData)<-gsub("Acc", "Accelerometer", names(mergedData))
@@ -60,7 +59,6 @@ names(mergedData)<-gsub("Mag", "Magnitude", names(mergedData))
 names(mergedData)<-gsub("BodyBody", "Body", names(mergedData))
 
 ##No.5- Create a second, independent tidy dataset with the average of each variable for each activity and each subject.
-
 #Remove ActivityType column so averages can be taken
 mergedData2 <- mergedData[,names(mergedData) != "activityType"]
 
