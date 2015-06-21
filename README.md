@@ -9,9 +9,9 @@ One of the most exciting areas in all of data science right now is wearable comp
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-Here are the data for the project: 
+Here is the data usedfor the project: 
 
-The dataset being used is: Human Activity Recognition Using Smartphones
+Human Activity Recognition Using Smartphones
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 ### Instructions
@@ -26,6 +26,7 @@ You should create one R script called run_analysis.R that does the following.:
 ### Additional Information
 You can find additional information about the variables, the data and the transformations used to clean up the data in the CodeBook.MD file.
 
-The run_analysis.R file contains all the code used to complete the project.  NOTE:  The code takes for granted that all of the data from the original dataset has been downloaded and extracted, but remains in one folder bearing the original directory name "UCI HAR Dataset" and file names unaltered.
+The run_analysis.R file contains all the code used to complete the project.  
+NOTE:  The code takes for granted that all of the data from the original dataset has been downloaded and extracted, but remains in one folder bearing the original directory name "UCI HAR Dataset" and file names unaltered.
 
 The final dataset, which is the output of the 5th step, is titled tidyData.txt.
