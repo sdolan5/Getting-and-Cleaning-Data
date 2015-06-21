@@ -11,7 +11,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 Here is the data used for the project: 
 
-Human Activity Recognition Using Smartphones
+*__Human Activity Recognition Using Smartphones__*
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 ### Instructions
