@@ -26,10 +26,10 @@ The script run_analysis.R performs the 5 steps described in the course project's
   * Subsetting the result to keep only the necessary columns.
   * Also, remember to update the column names
     
-##No.3- Use descriptive activity names to name the activities in the Dataset
+###No.3- Use descriptive activity names to name the activities in the Dataset
 ####`merge()` the dataset with the activityType table 
 
-##No.4- Appropriately label the data set with descriptive variable names 
+###No.4- Appropriately label the data set with descriptive variable names 
 ####Use `gsub()` and pattern replacement on the `names()` of the dataset
 * "^t" becomes "time"
 * "^f"becomes "frequency"
@@ -38,7 +38,7 @@ The script run_analysis.R performs the 5 steps described in the course project's
 * "Mag" becomes "Magnitude"
 * "BodyBody" becomes "Body"
   
-##No.5- Create a second, independent tidy data set with the average of each variable for each activity and each subject.
+###No.5- Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 1. Remove ActivityType column so that averages can be taken
 2. Summarize the new table to include just the mean of each variable using `aggregate()`
 3. `merge()` the new table with activityType to reintroduce the descriptive activity names
