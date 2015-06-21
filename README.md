@@ -26,6 +26,6 @@ You should create one R script called run_analysis.R that does the following.:
 ### Additional Information
 You can find additional information about the variables, the data and the transformations used to clean up the data in the CodeBook.MD file.
 
-The run_analysis.R file contains all the code used to complete the project.  NOTE:  The code takes for granted that all of the data fromt he original dataset has been downloaded and extracted, but remains in one folder with the original directory "UCI HAR Dataset" and file names unaltered.
+The run_analysis.R file contains all the code used to complete the project.  NOTE:  The code takes for granted that all of the data from the original dataset has been downloaded and extracted, but remains in one folder with the original directory name "UCI HAR Dataset" and file names unaltered.
 
 The final dataset, which is the output of the 5th step, is titled tidyData.txt.
