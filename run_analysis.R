@@ -33,7 +33,7 @@ colnames(yTest) <- "activityId"
 testData <- cbind(yTest,subjectTest,xTest)
 
 #Combine Train and Test into one Dataset
-mergedData = rbind(trainingData,testData)
+mergedData <- rbind(trainingData,testData)
 
 ##No. 2- Extract only the measurements on the mean and standard deviation 
 #Isolate the ID, mean() & stddev() columns using a logical vector and pattern matching
